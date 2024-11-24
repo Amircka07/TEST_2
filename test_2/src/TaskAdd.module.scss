@@ -1,0 +1,75 @@
+.title {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 140%;
+  color: #fff;
+  margin-top: 60px;
+  margin-bottom: 40px;
+  margin-left: 343px;
+  margin-right: 343px;
+}
+.title:root {
+  --font-family: "Arial", sans-serif;
+  --second-family: "Inter", sans-serif;
+}
+// .input_container {
+//   width: 740px;
+//   height: 54px;
+// }
+.input {
+  border: 1px solid #fff;
+  border-radius: 12px;
+  padding: 16px 0 16px 0;
+  width: 440px;
+  //   height: 54px;
+  background-color: black;
+  color: white;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #fff;
+  margin-bottom: 100px;
+}
+
+.btn {
+  border: 1px solid #9f9f9f;
+  border-radius: 12px;
+  padding: 16px;
+  width: 210px;
+  height: 54px;
+  margin-left: 90px;
+}
+.btn :root {
+  --font-family: "Arial", sans-serif;
+  --second-family: "Inter", sans-serif;
+}
+.btn:hover {
+  background-color: #db00ff;
+}
+
+.with_clear_all {
+  border: 1px solid #db00ff;
+  border-radius: 12px;
+  padding: 16px;
+  width: 100px;
+  height: 54px;
+}
+
+.Clear_all {
+  border: 1px solid #db00ff;
+  border-radius: 12px;
+  padding: 16px;
+  width: 100px;
+  height: 54px;
+  margin-left: 10px;
+}
+
+// h1 {
+//   font-family: var(--font-family);
+//   font-weight: 700;
+//   font-size: 36px;
+//   line-height: 140%;
+//   color: #fff;
+// }

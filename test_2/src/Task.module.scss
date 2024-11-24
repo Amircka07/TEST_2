@@ -1,0 +1,75 @@
+.task {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  //   margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.task_input {
+  border: 1px solid #fff;
+  border-radius: 12px;
+  padding: 16px 0 16px 0;
+  width: 440px;
+  //   height: 54px;
+  background-color: black;
+  color: #fff;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #fff;
+}
+
+.save {
+  border: 1px solid #db00ff;
+  border-radius: 12px;
+  padding: 16px;
+  width: 100px;
+  height: 54px;
+  margin-left: 10px;
+}
+
+.cancel {
+  margin-left: 90px;
+  border: 1px solid #db00ff;
+  border-radius: 12px;
+  padding: 16px;
+  width: 100px;
+  height: 54px;
+}
+
+.edit {
+  padding: 0;
+  margin-left: 175px;
+  border: 1px solid #fff;
+  border-radius: 12px;
+  padding: 16px;
+  width: 54px;
+  height: 54px;
+  background-color: black;
+}
+.edit:hover {
+  background-color: #db00ff;
+}
+.delete:hover {
+  background-color: #db00ff;
+}
+.delete {
+  border: 1px solid #fff;
+  border-radius: 12px;
+  padding: 16px;
+  width: 54px;
+  height: 54px;
+  background-color: black;
+  margin-left: 10px;
+}
+
+.svg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 24px;
+  width: 24px;
+  margin: 0 auto;
+}
